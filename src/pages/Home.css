@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url(C:\Users\attiullah.khanniazi\zahid\public\images\profile.jpg) no-repeat center center/cover;
+    background: url(/public/images/profile.jpg) no-repeat center center/cover;
     min-height: 100vh;
     padding: 50px;
   }
