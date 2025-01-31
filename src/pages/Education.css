@@ -1,0 +1,120 @@
+/* Education Page Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfaf6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .education-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+    text-align: center;
+    flex: 1; /* Ensures the content takes up available space */
+  }
+  
+  .education-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #eaaa43;
+    position: relative;
+  }
+  
+  .education-container h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #c87f36;
+    margin: 10px auto 0;
+  }
+  
+  .education-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .education-slide {
+    display: none;
+    text-align: center;
+  }
+  
+  .education-slide.active {
+    display: block;
+  }
+  
+  .education-slide blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 20px 0;
+    position: relative;
+    color: #2e1f07;
+  }
+  
+  .education-slide blockquote::before,
+  .education-slide blockquote::after {
+    content: '“';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c87f36;
+  }
+  
+  .education-slide p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2e1f07;
+  }
+  
+  .education-slide span {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .education-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #2e1f07;
+    transition: color 0.3s;
+  }
+  
+  .nav-button:hover {
+    color: #c87f36;
+  }
+  
+  .footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 70px 10;
+    width: 100%;
+    font-size: 1rem;
+    box-shadow: 0 -4px 10px rgba(247, 5, 5, 0.968);
+    margin-top: 50px; /* Pushes the footer to the bottom */
+  }
+  
+  @media (max-width: 768px) {
+    .education-container {
+      padding: 30px 15px;
+    }
+  }
