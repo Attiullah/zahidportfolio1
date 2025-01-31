@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container">
       <div className="hero-section">
         <img
-          src="/images/front.jpg" // Replace with your image URL
+          src='/images/profile.jpg' // Replace with your image URL
           alt="Zahid Hussain"
           className="profile-image"
         />
