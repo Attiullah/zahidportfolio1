@@ -7,6 +7,15 @@ const WorkExperience = () => {
       <h1>WORK EXPERIENCE</h1>
       <div className="work-experience-grid">
         <div className="work-card">
+          <img src="/images/1.jpg" alt="Chef" />
+          <div className="work-card-content">
+            <h2>Chef</h2>
+            <p>Highglamp Hotel, Murree</p>
+            <p>May 2025 - Present</p>
+            <p>Preparing a diverse range of cuisines including Chinese, fast food, Pakistani dishes, bakery items, and Italian dishes. Handling multiple sections of the kitchen with consistent quality, taste, and hygiene standards for hotel guests.</p>
+          </div>
+        </div>
+        <div className="work-card">
           <img src="/images/115.jpg" alt="Head Chef" />
           <div className="work-card-content">
             <h2>Head Chef</h2>
