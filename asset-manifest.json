@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zahidportfolio1/static/css/main.d2c02ddf.css",
+    "main.js": "/zahidportfolio1/static/js/main.6237a296.js",
+    "static/media/profile.jpg": "/zahidportfolio1/static/media/profile.e004609b23c1aea9c502.jpg",
+    "index.html": "/zahidportfolio1/index.html",
+    "main.d2c02ddf.css.map": "/zahidportfolio1/static/css/main.d2c02ddf.css.map",
+    "main.6237a296.js.map": "/zahidportfolio1/static/js/main.6237a296.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2c02ddf.css",
+    "static/js/main.6237a296.js"
+  ]
+}
