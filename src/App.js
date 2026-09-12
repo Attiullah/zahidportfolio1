@@ -12,7 +12,7 @@ import GlobalStyles from './GlobalStyles';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyles />
       <Header />
       <Routes>
