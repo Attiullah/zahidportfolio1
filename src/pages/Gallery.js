@@ -4,18 +4,18 @@ import './Gallery.css';
 const Gallery = () => {
   // Directly add photo links here
   const images = [
-    '/images/13.jpg',
-    '/images/11.jpg',
-    '/images/3.jpg',
-    '/images/4.jpg',
-    '/images/5.jpg',
-    '/images/6.jpg',
-    '/images/7.jpg',
-    '/images/8.jpg',
-    '/images/9.jpg',
-    '/images/10.jpg',
-    '/images/11.jpg',
-  ];
+    '13.jpg',
+    '11.jpg',
+    '3.jpg',
+    '4.jpg',
+    '5.jpg',
+    '6.jpg',
+    '7.jpg',
+    '8.jpg',
+    '9.jpg',
+    '10.jpg',
+    '11.jpg',
+  ].map((name) => `${process.env.PUBLIC_URL}/images/${name}`);
   
   return (
     <div className="gallery-container">

@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+const heroBgUrl = `${process.env.PUBLIC_URL}/images/hero-bg.jpg`;
+
 const GlobalStyles = createGlobalStyle`
   :root {
     --primary-color: #D758E5; /* A vibrant purple-pink */
@@ -106,7 +108,7 @@ const GlobalStyles = createGlobalStyle`
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background: linear-gradient(135deg, rgba(215, 88, 229, 0.8), rgba(255, 193, 7, 0.8)), url('/images/hero-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(215, 88, 229, 0.8), rgba(255, 193, 7, 0.8)), url('${heroBgUrl}') no-repeat center center/cover;
     color: white;
     padding: var(--spacing-unit);
   }

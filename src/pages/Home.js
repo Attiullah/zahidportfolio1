@@ -3,10 +3,13 @@ import './Home.css'; // Import the CSS file
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div
+      className="home-container"
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/profile.jpg)` }}
+    >
       <div className="hero-section">
         <img
-          src='/images/front.jpg' // Replace with your image URL
+          src={`${process.env.PUBLIC_URL}/images/front.jpg`}
           alt="Zahid Hussai"
           className="profile-image"
         />

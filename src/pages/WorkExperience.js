@@ -7,7 +7,7 @@ const WorkExperience = () => {
       <h1>WORK EXPERIENCE</h1>
       <div className="work-experience-grid">
         <div className="work-card">
-          <img src="/images/1.jpg" alt="Chef" />
+          <img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Chef" />
           <div className="work-card-content">
             <h2>Chef</h2>
             <p>Highglamp Hotel, Murree</p>
@@ -16,7 +16,7 @@ const WorkExperience = () => {
           </div>
         </div>
         <div className="work-card">
-          <img src="/images/115.jpg" alt="Head Chef" />
+          <img src={`${process.env.PUBLIC_URL}/images/115.jpg`} alt="Head Chef" />
           <div className="work-card-content">
             <h2>Head Chef</h2>
             <p>Express body by butter, Lahore</p>
@@ -25,7 +25,7 @@ const WorkExperience = () => {
           </div>
         </div>
         <div className="work-card">
-          <img src="/images/114.jpg" alt="Assistant Chef" />
+          <img src={`${process.env.PUBLIC_URL}/images/114.jpg`} alt="Assistant Chef" />
           <div className="work-card-content">
             <h2>Assistant Chef</h2>
             <p>Sweettooth, Lahore</p>
@@ -34,7 +34,7 @@ const WorkExperience = () => {
           </div>
         </div>
         <div className="work-card">
-          <img src="/images/113.jpg" alt="Assistant Chef" />
+          <img src={`${process.env.PUBLIC_URL}/images/113.jpg`} alt="Assistant Chef" />
           <div className="work-card-content">
             <h2>Assistant Chef</h2>
             <p>National Bakery, Gilgit</p>
@@ -43,7 +43,7 @@ const WorkExperience = () => {
           </div>
         </div>
         <div className="work-card">
-          <img src="/images/112.jpg" alt="Assistant Chef" />
+          <img src={`${process.env.PUBLIC_URL}/images/112.jpg`} alt="Assistant Chef" />
           <div className="work-card-content">
             <h2>Assistant Chef</h2>
             <p>Tibet Motel Sost, Hunza</p>
